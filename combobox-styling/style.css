@@ -1,9 +1,14 @@
+body {
+    background-color: #00a059;
+}
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;*/
 .container {
-    margin: 90px;
+    margin: 70px;
     text-align: center;
 }
 .basic-style {
-    padding: 5px;
     border: 2px solid #d9d9d9;
     border-radius: 2px;
     font-size: 14px;
@@ -30,4 +35,20 @@
 	    5px 5px,
 	    1.7em 2.5em;
 		background-repeat: no-repeat;
+}
+.style-1 {
+    padding: 9px 30px 9px 5px;
+}
+.style-2 {
+    padding: 9px 43px 9px 11px;
+}
+p.title {
+    font-size: 35px;
+    text-shadow: 2px 2px 4px darkgreen;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+}
+textarea:focus, input:focus, select:focus{
+    outline: none;
 }
